@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page">
+        <button id="themeButton" class="theme-button">Ночной режим</button>
+
+        <h1>Форма пользователя</h1>
+
+        <form class="form">
+            <label for="lastName">Фамилия</label>
+            <input id="lastName" type="text">
+
+            <label for="firstName">Имя</label>
+            <input id="firstName" type="text">
+
+            <label for="email">Электронная почта</label>
+            <input id="email" type="email">
+
+            <label for="phone">Телефон</label>
+            <input id="phone" type="tel">
+
+            <button id="sendButton" type="button">Отправить</button>
+        </form>
+
+        <div id="result" class="result">
+            <h2>Введенные данные</h2>
+            <p id="resultLastName"></p>
+            <p id="resultFirstName"></p>
+            <p id="resultEmail"></p>
+            <p id="resultPhone"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
